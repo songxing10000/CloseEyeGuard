@@ -1,0 +1,22 @@
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# 构建产物（用 xcodebuild 从源码打包）
+CloseEyeGuard.xcframework
+
+# macOS
+.DS_Store
